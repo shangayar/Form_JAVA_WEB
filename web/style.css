@@ -1,0 +1,73 @@
+.container{
+    display:flex;
+    width:100px;
+    flex-direction: column;  
+    width: 35%;
+    margin: 2% auto;
+    /*background-color: #D8E3E7;*/
+    /*background: radial-gradient(#E6E6E6, #C5A880);*/
+    background-image:url("images/john-fowler-RsRTIofe0HE-unsplash.jpg");
+    background-size: cover;
+    padding: 0 20px 20px 20px;
+    border: 5px inset #FFA45B;  
+}
+.uno{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    align-items: center; 
+    color:#F8F1F1;  
+}
+.dos{
+    color:#F8F1F1; 
+}
+.header{
+    text-align:center;
+    font-size:40px;
+    color:#DB6400;
+       
+}
+
+hr{
+    size:8px;
+    color:#FFA62B;
+}
+.titulo{
+    text-align:center;
+    font-size:30px;
+    color:#FFA62B;
+}
+.datos{
+    color:#F8F1F1;
+}
+.datos input{
+    border-radius: 10px;
+}
+.datos textarea{
+    border-radius: 10px;
+}
+table, th, td {
+    border: 1px solid #FFA62B;
+    border-collapse: collapse;
+}
+.cabecera{
+    color:#FFF8CD ;
+}
+.datos{
+    text-align:center;
+    color:#AC4B1C ;
+}
+.btn{
+    background-color: #FFA62B;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.btn:hover{
+    color: red;
+    background-color: #DB6400; 
+}
